@@ -1,5 +1,7 @@
 # 📚 DSA Practice Repository
 
+![Progress](https://img.shields.io/badge/Progress-Started-blue)
+
 I'm practicing Data Structures and Algorithms (DSA) every day to improve my coding skills and prepare for technical interviews. This repository contains all the problems I solve, organized by topic. I use Python for all implementations and update this repository regularly to stay consistent and track my progress.
 
 ---
@@ -59,14 +61,14 @@ I'm practicing Data Structures and Algorithms (DSA) every day to improve my codi
 
 ## 🗂️ Folder Structure
 
-- `Revision1/` — Problems I couldn't solve initially and need more practice.
-- `Revision2/` — Problems I solved confidently after revisiting.
+- `Revision_1/` — Problems I couldn't solve initially and need more practice.
+- `Revision_2/` — Problems I solved confidently after revisiting.
 
 📝 **Revision Strategy**:
-- Problems I struggle with are placed in `Revision1/`.
-- Once I solve them successfully, they are moved to `Revision2/`.
-- Problems solved confidently in `Revision2/` are removed.
-- If unsolved in `Revision2/`, they are moved back to `Revision1/`.
+- Problems I struggle with are placed in `Revision_1/`.
+- Once I solve them successfully, they are moved to `Revision_2/`.
+- Problems solved confidently in `Revision_2/` are removed.
+- If unsolved in `Revision_2/`, they are moved back to `Revision_1/`.
 - End of every month, I focus on solving all the problems in the revision folders.
 
 ---
