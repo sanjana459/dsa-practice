@@ -1,6 +1,7 @@
 # 📚 DSA Practice Repository
 
-![Progress](https://img.shields.io/badge/Progress-In%20Progress-yellow)
+![In Progress](https://img.shields.io/badge/In%20Progress-Yellow?style=for-the-badge&logo=progress)
+
 
 I'm practicing Data Structures and Algorithms (DSA) every day to improve my coding skills and prepare for technical interviews. This repository contains all the problems I solve, organized by topic. I use Python for all implementations and update this repository regularly to stay consistent and track my progress.
 
