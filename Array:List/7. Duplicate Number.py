@@ -25,3 +25,13 @@ print(remove_duplicates([1, 1, 2, 2, 3, 4, 5]))
 # Most optimal solution is this when we can use only Lists and Arrays
 
 
+def no_duplicates(lst):
+    new_set=set(lst)    #--------> O(n)
+    return list(new_set) #--------> O(n)
+
+print(no_duplicates([1, 1, 2, 2, 3, 4, 5])) 
+
+
+# TC: O(n)
+# SC: O(n)
+# Using sets is better

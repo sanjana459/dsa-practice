@@ -28,7 +28,7 @@ def pair_sum(array,target):
                 print(f"The pairs are: {array[i]} and {array[j]}")
 
 array= [2,7,11,15]
-print(pair_sum(array, 9))
+pair_sum(array, 9)
 
 # Time Complexity= O(n^2)
 # Space Complexity= O(1)
@@ -36,3 +36,4 @@ print(pair_sum(array, 9))
 # If they say "no extra space", use brute force (O(n²)).
 # If they say "optimize for time" or "large data", use hash map (O(n)).
 
+# Can you dictionaries for optimization. Cant use sets because we need to store index and value

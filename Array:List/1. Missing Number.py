@@ -20,3 +20,12 @@ print(missing_number(array,7))
 
 # Time Complexity = O(n)
 # Space Complexity = O(1)
+
+def missing_number(arr, n):
+    full_set = set(range(1, n + 1))
+    arr_set = set(arr)
+    missing = full_set - arr_set  
+    return missing.pop()
+
+# Time Complexity = O(n)
+# Space Complexity = O(n)

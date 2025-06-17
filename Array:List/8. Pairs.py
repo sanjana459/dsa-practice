@@ -15,4 +15,13 @@ pair_sum([2, 4, 3, 5, 6, -2, 4, 7, 8, 9],7)
 
 # TC: O(n^2)
 # SC: O(1)
+print("------------")
+def sum_pair(myList, target):
+    seen = set()
+    for num in myList:
+        complement = target - num
+        if complement in seen:
+            print(f"{complement} + {num}")
+        seen.add(num)
 
+sum_pair([2, 4, 3, 5, 6, -2, 4, 7, 8, 9],7)
