@@ -25,3 +25,7 @@ def sum_pair(myList, target):
         seen.add(num)
 
 sum_pair([2, 4, 3, 5, 6, -2, 4, 7, 8, 9],7)
+
+# This is using hash in sets
+# TC: O(n)
+# SC: O(n)
